@@ -1,3 +1,4 @@
+img
 // импорт стандартных библиотек Node.js
 const { readFileSync } = require("fs");
 const { createServer } = require("http");

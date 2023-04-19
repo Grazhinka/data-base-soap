@@ -2,7 +2,7 @@
   {
      "title":"Мыло",
      "kratkoeOpisanie":"Тыква и корица",
-     "img":"/img/mylo3.jpg",
+     "image":"/img/mylo3.jpg",
      "category":"ВСЁ ремесленное мыло",
      "ves":"100 г.",
      "cena":"10 BYN",
@@ -11,7 +11,7 @@
   {
       "title":"Мыло",
       "kratkoeOpisanie":"GREEN",
-      "img":"/img/mylo4.jpg",
+      "image":"/img/mylo4.jpg",
       "category":"ВСЁ ремесленное мыло",
       "ves":"120 г.",
       "cena":"12 BYN",
@@ -20,7 +20,7 @@
   {
       "title":"Мыло",
       "kratkoeOpisanie":"Лаванда и рикотта",
-      "img":"/img/mylo5.jpg",
+      "image":"/img/mylo5.jpg",
       "category":"ВСЁ ремесленное мыло",
       "ves":"90 г.",
       "cena":"10 BYN",
@@ -29,7 +29,7 @@
   {
       "title":"Мыло",
       "kratkoeOpisanie":"Чили и апельсин",
-      "img":"/img/cilul.jpg",
+      "image":"/img/cilul.jpg",
       "category":"ВСЁ ремесленное мыло",
       "ves":"120 г.",
       "cena":"12 BYN",
@@ -38,7 +38,7 @@
   {
       "title":"Мыло",
       "kratkoeOpisanie":"Чайное дерево",
-      "img":"/img/mylo2.jpg",
+      "image":"/img/mylo2.jpg",
       "category":"ВСЁ ремесленное мыло",
       "ves":"120 г.",
       "cena":"12 BYN",
@@ -47,7 +47,7 @@
   {
       "title":"Мыло",
       "kratkoeOpisanie":"Кастильское",
-      "img":"/img/mylo6.jpg",
+      "image":"/img/mylo6.jpg",
       "category":"ВСЁ ремесленное мыло",
       "ves":"120 г.",
       "cena":"13 BYN",
@@ -56,7 +56,7 @@
   {
       "title":"Мыло",
       "kratkoeOpisanie":"Овсяное массажное",
-      "img":"/img/mylo2.jpg",
+      "image":"/img/mylo2.jpg",
       "category":"ВСЁ ремесленное мыло",
       "ves":"120 г.",
       "cena":"12 BYN",
@@ -65,7 +65,7 @@
   {
       "title":"Мыло",
       "kratkoeOpisanie":"Мандарин и мак",
-      "img":"/img/mylo2.jpg",
+      "image":"/img/mylo2.jpg",
       "category":"ВСЁ ремесленное мыло",
       "ves":"120 г.",
       "cena":"12 BYN",
@@ -74,7 +74,7 @@
   {
       "title":"Мыло",
       "kratkoeOpisanie":"Роза и гранат",
-      "img":"/img/mylo2.jpg",
+      "image":"/img/mylo2.jpg",
       "category":"ВСЁ ремесленное мыло",
       "ves":"100 г.",
       "cena":"11 BYN",
@@ -83,7 +83,7 @@
   {
       "title":"Мыло",
       "kratkoeOpisanie":"Пивное",
-      "img":"/img/mylo2.jpg",
+      "image":"/img/mylo2.jpg",
       "category":"ВСЁ ремесленное мыло",
       "ves":"110 г.",
       "cena":"11 BYN",
@@ -92,7 +92,7 @@
   {
       "title":"Мыло",
       "kratkoeOpisanie":"Миндальное молочко",
-      "img":"/img/mylo2.jpg",
+      "image":"/img/mylo2.jpg",
       "category":"ВСЁ ремесленное мыло",
       "ves":"100 г.",
       "cena":"11 BYN",
@@ -101,7 +101,7 @@
   {
       "title":"Твердый шампунь",
       "kratkoeOpisanie":"Цитрусовый",
-      "img":"/img/suhoish.jpg",
+      "image":"/img/suhoish.jpg",
       "category":"ВСЁ твёрдый шампунь",
       "ves":"80 г.",
       "cena":"25 BYN",
@@ -110,7 +110,7 @@
   {
       "title":"Твердый шампунь",
       "kratkoeOpisanie":"Лаванда и кокос",
-      "img":"/img/suhoish.jpg",
+      "image":"/img/suhoish.jpg",
       "category":"ВСЁ твёрдый шампунь",
       "ves":"80 г.",
       "cena":"25 BYN",
@@ -119,7 +119,7 @@
   {
       "title":"Сухое молочко",
       "kratkoeOpisanie":"шот для ванн",
-      "img":"/img/molochko.jpg",
+      "image":"/img/molochko.jpg",
       "category":"ВСЁ для ванн",
       "ves":"колба 60 мл",
       "cena":"10 BYN",
@@ -128,7 +128,7 @@
   {
       "title":"Бальзам для губ",
       "kratkoeOpisanie":"и не только",
-      "img":"/img/balsam.jpg",
+      "image":"/img/balsam.jpg",
       "category":"ВСЁ для губ",
       "ves":"баночка",
       "cena":"10 BYN",
@@ -137,7 +137,7 @@
   {
       "title":"Скраб для губ",
       "kratkoeOpisanie":0,
-      "img":"/img/balsam2.jpg",
+      "image":"/img/balsam2.jpg",
       "category":"ВСЁ для губ",
       "ves":"баночка",
       "cena":"10 BYN",
@@ -146,7 +146,7 @@
   {
       "title":"Бальзам для губ",
       "kratkoeOpisanie":"очень питательный",
-      "img":"/img/balsam3.jpg",
+      "image":"/img/balsam3.jpg",
       "category":"ВСЁ для губ",
       "ves":"туба",
       "cena":"8 BYN",
@@ -155,7 +155,7 @@
   {
       "title":"Суфле для тела",
       "kratkoeOpisanie":"Белый шоколад",
-      "img":"/img/butter.jpg",
+      "image":"/img/butter.jpg",
       "category":"ВСЁ баттеры для тела",
       "ves":"объем 200 мл",
       "cena":"30 BYN",
@@ -164,7 +164,7 @@
   {
       "title":"Шарики-скрабы",
       "kratkoeOpisanie":"сахарные",
-      "img":"/img/sahar2.jpg",
+      "image":"/img/sahar2.jpg",
       "category":"ВСЁ скрабы для тела",
       "ves":"3*30 г",
       "cena":"4 BYN",
@@ -173,7 +173,7 @@
   {
       "title":"Бельди",
       "kratkoeOpisanie":"густое травное мыло-скраб",
-      "img":"/img/beldi.png",
+      "image":"/img/beldi.png",
       "category":"ВСЁ баттеры бельди",
       "ves":"200 мл",
       "cena":"30 BYN",
@@ -182,7 +182,7 @@
   {
       "title":"Наборы",
       "kratkoeOpisanie":"подарочные",
-      "img":"/img/nabor1.jpg",
+      "image":"/img/nabor1.jpg",
       "category":"ВСЁ баттеры наборы",
       "ves":"на выбор",
       "cena":"от 20 BYN",
