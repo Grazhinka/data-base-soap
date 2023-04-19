@@ -1,4 +1,3 @@
-img
 // импорт стандартных библиотек Node.js
 const { readFileSync } = require("fs");
 const { createServer } = require("http");
@@ -6,7 +5,7 @@ const path = require("path");
 
 // файл для базы данных
 const DB_FILE = process.env.DB_FILE || path.resolve(__dirname, "db.json");
-DOPINFO_FILE =
+const DOPINFO_FILE =
   process.env.DB_FILE || path.resolve(__dirname, "dopinfo.json");
 // номер порта, на котором будет запущен сервер
 const PORT = process.env.PORT || 3024;
@@ -152,3 +151,14 @@ module.exports = server = createServer(async (req, res) => {
   })
   // ...и вызываем запуск сервера на указанном порту
   .listen(PORT);
+
+
+
+
+
+
+
+
+
+
+
