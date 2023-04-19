@@ -5,8 +5,8 @@ const path = require("path");
 
 // файл для базы данных
 const DB_FILE = process.env.DB_FILE || path.resolve(__dirname, "db.json");
-const CATEGORY_FILE =
-  process.env.DB_FILE || path.resolve(__dirname, "category.json");
+DOPINFO_FILE =
+  process.env.DB_FILE || path.resolve(__dirname, "dopinfo.json");
 // номер порта, на котором будет запущен сервер
 const PORT = process.env.PORT || 3024;
 // префикс URI для всех методов приложения
@@ -25,10 +25,10 @@ function getGoodsList(params = {}) {
 
   let data = goods;
 
-  if (params.category) {
-    const category = params.category.trim().toLowerCase();
-    const regExp = new RegExp(`^${category}$`);
-    data = data.filter((item) => regExp.test(item.category.toLowerCase()));
+  if (params.dopinfo) {
+    const dopinfo = params.dopinfo.trim().toLowerCase();
+    const regExp = new RegExp(`^${dopinfo}$`);
+    data = data.filter((item) => regExp.test(item.dopinfo.toLowerCase()));
   }
 
   if (params.list) {
@@ -51,8 +51,8 @@ function getItems(itemId) {
 }
 
 function getCategory() {
-  const category = JSON.parse(readFileSync(CATEGORY_FILE) || "[]");
-  return category;
+  const dopinfo = JSON.parse(readFileSync(DOPINFO_FILE) || "[]");
+  return dopinfo;
 }
 
 // создаём HTTP сервер, переданная функция будет реагировать на все запросы к нему
@@ -108,7 +108,7 @@ module.exports = server = createServer(async (req, res) => {
       if (uri === "" || uri === "/") {
         // /api/goods
         if (req.method === "GET") return getGoodsList(queryParams);
-      } else if (req.url.endsWith("category")) {
+      } else if (req.url.endsWith("dopinfo")) {
         if (req.method === "GET") return getCategory();
       } else {
         // /api/goods/{id}
@@ -142,9 +142,9 @@ module.exports = server = createServer(async (req, res) => {
       console.log("Доступные методы:");
       console.log(`GET ${URI_PREFIX} - получить список товаров`);
       console.log(
-        `GET ${URI_PREFIX}?category={category} - получить список товаров по категории`
+        `GET ${URI_PREFIX}?dopinfo={dopinfo} - получить список товаров по категории`
       );
-      console.log(`GET ${URI_PREFIX}/category - получить список категорий`);
+      console.log(`GET ${URI_PREFIX}/dopinfo - получить список категорий`);
       console.log(`GET ${URI_PREFIX}/{id} - получить товар по его ID`);
       console.log(`GET ${URI_PREFIX}?list={id,id,id} - получить список с id);`);
     }
